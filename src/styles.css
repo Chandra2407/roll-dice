@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.dices {
+  display: flex;
+  gap: 10px;
+  width: 100vw;
+  justify-content: center;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  background: white;
+  color: red;
+  border-radius: 50%;
+}
+.dot.zero {
+  opacity: 0;
+}
+.roll {
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: black;
+  color: white;
+}
