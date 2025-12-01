@@ -46,6 +46,7 @@ export default function App() {
   };
 
   const createArray = (number) => {
+    let newArray = [];
     if (number == 1) {
       newArray = [
         [0, 0, 0],
